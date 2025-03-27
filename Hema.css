@@ -1,0 +1,185 @@
+/* ===== تحسين عام للموقع ===== */
+body {
+    background-color: #121212; /* لون داكن مريح للعين */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #4caf50;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.5);
+}
+
+/* ===== تحسين عنوان الموقع ===== */
+h1 {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 0 0 15px red, 0 0 25px #e70e0e;
+}
+
+/* ===== تحسين تفاصيل أسماء الشيوخ ===== */
+details {
+    background-color: #1a1a1a;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 12px;
+    border: 2px solid #4caf50;
+    box-shadow: 0px 0px 10px rgba(76, 175, 80, 0.5);
+}
+
+/* ===== تحسين أسماء الشيوخ ===== */
+summary {
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    color: #4caf50;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* تأثير عند تمرير الماوس */
+summary:hover {
+    color: #ffffff;
+    text-shadow: 0 0 15px #4caf50;
+}
+
+/* تأثير عند الضغط */
+summary:active {
+    color: #ffeb3b;
+    text-shadow: 0 0 15px yellow;
+}
+
+/* ===== تحسين الفيديوهات ===== */
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 320px;
+    margin: 15px auto;
+    border-radius: 12px;
+    border: 2px solid #4caf50;
+    transition: 0.3s;
+}
+
+/* تأثير عند تمرير الماوس */
+iframe:hover {
+    border-color: yellow;
+    box-shadow: 0 0 20px yellow;
+}
+
+/* تأثير عند الضغط */
+iframe:active {
+    border-color: orange;
+    box-shadow: 0 0 25px orange;
+}
+
+summary:hover {
+    animation: shake 0.3s ease-in-out;
+}
+
+
+
+/* زر الأدعية */
+.dua-btn {
+    background-color: #ffcc00;
+    color: black;
+    font-size: 21px;
+    font-weight: initial;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
+    transition: 0.3s;
+    display: block;
+    text-align: center;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.dua-btn:hover {
+    background-color: #ffaa00;
+}
+
+/* صندوق الأدعية */
+.duas-container {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.5);
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* تحسين النصوص */
+.duas-container h2 {
+    font-size: 22px;
+    color: #ffcc00;
+    text-shadow: 0 0 8px yellow;
+}
+
+.dua {
+    background: #333;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.3);
+}
+
+.dua h3 {
+    color: #ffcc00;
+    font-size: 18px;
+}
+
+.dua p {
+    font-size: 30px;
+    color: #ddd;
+}
+
+.time {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #4caf50;
+}
+
+/* جعل الزر في الوسط */
+.dua-box {
+    text-align: center;
+}
+
+.dua span{
+    font-size: 25px;
+}
+
+
+/* تصميم رابط العودة للأعلى */
+#backToTop {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 20px;
+    z-index: 99;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* تأثير عند المرور فوق الرابط */
+#backToTop:hover {
+    background-color: #45a049;
+}
+
+
